@@ -1343,6 +1343,7 @@
 
 ## Tests
   * [Test Bubble Sort](tests/test_bubble_sort.py)
+  * [Test Loss Functions](tests/test_loss_functions.py)
 
 ## Web Programming
   * [Co2 Emission](web_programming/co2_emission.py)
