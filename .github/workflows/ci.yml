@@ -20,6 +20,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # - name: Run Tests
+      #   run: |
+      #     pytest --ignore=docs/ --ignore=quantum/ --maxfail=1 --disable-warnings
+
       - name: Run Tests
         run: |
-          pytest --ignore=docs/ --ignore=quantum/ --maxfail=1 --disable-warnings
+          pytest tests/ --maxfail=1 --disable-warnings
+
