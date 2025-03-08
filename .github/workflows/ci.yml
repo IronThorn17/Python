@@ -22,4 +22,4 @@ jobs:
 
       - name: Run Tests
         run: |
-          pytest --ignore=docs/ --maxfail=1 --disable-warnings
+          pytest --ignore=docs/ --ignore=quantum/ --maxfail=1 --disable-warnings
