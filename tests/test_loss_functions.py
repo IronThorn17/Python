@@ -6,7 +6,7 @@ import numpy as np
 # Add the root project directory to sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from machine_learning import kullback_leibler_divergence
+from machine_learning.loss_functions import kullback_leibler_divergence
 
 def test_kl_divergence_with_zero():
     """This test ensures that KL divergence avoids log(0)."""
