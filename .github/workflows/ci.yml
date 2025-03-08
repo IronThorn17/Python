@@ -24,7 +24,10 @@ jobs:
       #   run: |
       #     pytest --ignore=docs/ --ignore=quantum/ --maxfail=1 --disable-warnings
 
+      # - name: Run Tests
+      #   run: |
+      #     pytest tests/ --maxfail=1 --disable-warnings
+
       - name: Run Tests
         run: |
-          pytest tests/ --maxfail=1 --disable-warnings
-
+          PYTHONPATH=$(pwd) pytest tests/ --maxfail=1 --disable-warnings
