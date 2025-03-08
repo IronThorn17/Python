@@ -8,12 +8,14 @@ numpy
 opencv-python
 pandas
 pillow
+pytest
 requests
 rich
 scikit-learn
 sphinx-pyproject
 statsmodels
 sympy
+tensorflow
 tweepy
 typing_extensions
 xgboost
