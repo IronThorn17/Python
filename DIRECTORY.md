@@ -1341,6 +1341,9 @@
   * [Word Patterns](strings/word_patterns.py)
   * [Z Function](strings/z_function.py)
 
+## Tests
+  * [Test Bubble Sort](tests/test_bubble_sort.py)
+
 ## Web Programming
   * [Co2 Emission](web_programming/co2_emission.py)
   * [Covid Stats Via Xpath](web_programming/covid_stats_via_xpath.py)
