@@ -15,7 +15,7 @@ def test_bubble_sort(sort_function):
     assert sort_function([-2, -45, -5]) == [-45, -5, -2]
     assert sort_function([-23, 0, 6, -4, 34]) == [-23, -4, 0, 6, 34]
     assert sort_function(['d', 'a', 'b', 'e']) == ['a', 'b', 'd', 'e']
-    assert sort_function(['z', 'a', 'y', 'b', 'x', 'c']) == ['b', 'a', 'c', 'x', 'y', 'z']
+    assert sort_function(['z', 'a', 'y', 'b', 'x', 'c']) == ['a', 'b', 'c', 'x', 'y', 'z']
     assert sort_function([1.1, 3.3, 5.5, 7.7, 2.2, 4.4, 6.6]) == [1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7]
     assert sort_function([1, 3.3, 5, 7.7, 2, 4.4, 6]) == [1, 2, 3.3, 4.4, 5, 6, 7.7]
 
